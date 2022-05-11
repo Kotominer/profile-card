@@ -1,0 +1,81 @@
+html {
+    background-color: hsl(185, 75%, 39%);
+    margin: 0px;
+    padding: 0px;
+    background-image: url(images/bg-pattern-top.svg),url(images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat,no-repeat;
+    background-position: right 50vw bottom 50vh,left 50vw top 50vh;
+    font-family: 'Kumbh Sans', sans-serif;
+}  
+
+h1,h2,p {
+    margin: 0px;
+    margin-bottom: 5px;
+}
+
+body {
+    min-height: 100vh;
+}
+
+#container {
+    min-height: 100vh;
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    justify-content: space-between;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 15px;
+    background-color: white;
+}    
+.profil-img {
+    z-index: 1;
+    position: absolute;
+    bottom: 50%;
+    border-radius: 50px;
+    border: 5px solid white;
+}   
+#middle {
+    display: flex;
+    z-index: 1;
+    position: absolute;
+    top: 160px;
+    right: 47%;
+    border: 8px solid white;
+}   
+#description {
+   
+    text-align: center;
+    display: flex;
+    line-height: 1;
+    height: 130px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 35px;
+}
+.description-number {
+    font-weight: 400;
+}
+#footer {
+    display: flex;
+    justify-content: space-evenly;
+    min-width: 100%;
+    border-top: 1px solid #e8e9ec
+}
+
+.text {
+    text-align: center;
+    line-height: 1;
+    margin: 20px 0px;
+}
+
+
+    
